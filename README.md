@@ -1,5 +1,5 @@
-## NAME:-V.B.LAKSHA
-## Reg.no:-212224220051
+## NAME:-POOJA S
+## Reg.no:-212223040146
 # EXPERIMENT-6
 ## AIM:To write a Python program for checking Palindrome and to write test cases for ir. 
 
