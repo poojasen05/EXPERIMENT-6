@@ -40,8 +40,8 @@ else:
         print("Test Case:Pass") 
 ```
 ## OUTPUT
-<img width="279" height="99" alt="image" src="https://github.com/user-attachments/assets/d0278066-a4a0-43ef-be32-b051971f376a" />
-<img width="497" height="91" alt="Screenshot 2025-10-09 090201" src="https://github.com/user-attachments/assets/734d8bd3-85dc-4981-88b9-106b4d8a8f10" />
+<img width="1703" height="786" alt="image" src="https://github.com/user-attachments/assets/ab7c67b9-ff03-4215-a208-0f14b84c54a7" />
+
 
 ## RESULT
 Thus, a program to check palindrome has been written and test cases have been written and verified successfully.
