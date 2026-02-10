@@ -1,3 +1,5 @@
+## NAME:-V.B.LAKSHA
+## Reg.no:-212224220051
 # EXPERIMENT-6
 ## AIM:To write a Python program for checking Palindrome and to write test cases for ir. 
 
@@ -11,7 +13,35 @@ Step 6: Else, return that it is not a palindrome.
 Step 7: Stop. 
 
 ## PROGRAM
+```
+def Palindrome(string):
+    for i in range(0, int(len(string) / 2)):
+        if string[i] != string[len(string) - i - 1]:  # Fixed indexing
+            return False
+    return True
+s = input("Enter a string: ")  # Added a prompt for clarity
 
+c = 1
+for i in s:
+    if not i.isalpha():
+        c = 0
+        break  # Added break to stop checking after finding a non-alphabetic character
+
+if c == 0:
+    print("Enter a valid string")
+    print("Test Case:Fail")
+else:
+    answer = Palindrome(s)
+    if answer:
+        print("The given string is a palindrome")
+        print("Test Case:Pass")
+    else:
+        print("The given string is not a palindrome")
+        print("Test Case:Pass") 
+```
 ## OUTPUT
+<img width="279" height="99" alt="image" src="https://github.com/user-attachments/assets/d0278066-a4a0-43ef-be32-b051971f376a" />
+<img width="497" height="91" alt="Screenshot 2025-10-09 090201" src="https://github.com/user-attachments/assets/734d8bd3-85dc-4981-88b9-106b4d8a8f10" />
 
 ## RESULT
+Thus, a program to check palindrome has been written and test cases have been written and verified successfully.
